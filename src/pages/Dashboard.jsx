@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://expense-tracker-api-q7fq.onrender.com/api'
 const CATEGORIES = ['All', 'Food', 'Travel', 'Bills', 'Shopping', 'Health', 'Entertainment', 'Education', 'Other']
 const CAT_ICONS = { Food:'🍜', Travel:'✈️', Bills:'💡', Shopping:'🛍️', Health:'💊', Entertainment:'🎮', Education:'📚', Other:'📦' }
 

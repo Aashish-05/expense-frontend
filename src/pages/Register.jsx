@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://expense-tracker-api-q7fq.onrender.com/api'
 
 export default function Register() {
   const [form, setForm] = useState({ name: '', email: '', password: '' })
